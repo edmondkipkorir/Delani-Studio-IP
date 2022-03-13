@@ -3,4 +3,13 @@ body,#body-text{
     background-color: rgb(185, 108, 14);
     margin-right: 40px;
         font-weight: 500;
+     
     }
+    body ,#form-function{
+        margin-top: 800px;
+        padding-top: 100px;
+    }
+#work1{
+    padding-left: 120px;
+    padding-right: 120px;
+}    
