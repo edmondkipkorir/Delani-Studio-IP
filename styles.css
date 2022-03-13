@@ -2,3 +2,5 @@ body,#body-text{
     text-align: center;
     background-color: rgb(185, 108, 14);
     margin-right: 40px;
+        font-weight: 500;
+    }
