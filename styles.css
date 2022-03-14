@@ -1,15 +1,37 @@
 body,#body-text{
     text-align: center;
-    background-color: rgb(185, 108, 14);
+    /* background-color: rgb(185, 108, 14); */
     margin-right: 40px;
         font-weight: 500;
      
     }
-    body ,#form-function{
+    /* body ,#form-function{
         margin-top: 800px;
         padding-top: 100px;
-    }
+    } */
 #work1{
     padding-left: 120px;
     padding-right: 120px;
-}    
+}  
+#form{
+
+        background-image: url('./images/c_image.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        /* text-align: center; */
+      
+}
+#images img{
+    /* margin: 5%; */
+    padding-right: 5%;
+    margin: 4% 0% 2% 0%;
+}  
+
+#id images/s_image.jpg{
+    background-image: url('./images/c_image.jpg'); 
+    background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
