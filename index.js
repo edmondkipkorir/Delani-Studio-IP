@@ -16,3 +16,11 @@ $('#hide').hide();
 
         	$('#show2,#hide2').toggle()
         });
+   
+        $(".overlay").hover(function (){
+                $(".overlay-text").show();
+            }, function(){
+                $(".overlay-text").hide();        
+            
+            });
+              
