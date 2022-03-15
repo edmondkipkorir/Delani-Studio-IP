@@ -18,8 +18,11 @@
     left: 30%;
     transform: translate(-50% -50%);
     text-align: center;
-
-
+    
+}
+.mouse{
+    bottom: 100%;
+    padding-bottom: 20% 0% 0% 20%;
 }
 .about{
     text-align: center;
@@ -61,6 +64,7 @@
         background-repeat: no-repeat;
         color: white;
         /* text-align: center; */
+        bottom: 200%;
       
 }
 #images img{
