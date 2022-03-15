@@ -1,14 +1,54 @@
-body,#body-text{
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(./images/h_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+.section1{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50% -50%);
     text-align: center;
-    /* background-color: rgb(185, 108, 14); */
-    margin-right: 40px;
-        font-weight: 500;
-     
-    }
-    /* body ,#form-function{
-        margin-top: 800px;
-        padding-top: 100px;
-    } */
+
+
+}
+.about{
+    text-align: center;
+    padding: 50px;
+}
+.content{
+    text-align: center;
+    padding: 50px; 
+    background-image: url(./images/s_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    position: relative; 
+}
+.section2{
+    position: absolute;
+    color: white;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50% -50%);
+    text-align: center;
+
+
+}
+.body-text{
+    text-align: center;
+
+}
 #work1{
     padding-left: 120px;
     padding-right: 120px;
@@ -25,13 +65,38 @@ body,#body-text{
 }
 #images img{
     /* margin: 5%; */
-    padding-right: 5%;
-    margin: 4% 0% 2% 0%;
-}  
+    padding-right: 3%;
+    margin: 0% 0% 0% 0%;
+    height: 200px;
+    width: 230px;
+} 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .social-icons{
+      /* padding-right: 50%;
+      padding-left: 700; */
+      /* margin: 5% 0% 20% 11%; */
+      position: absolute;
+      left: 35%;
 
-#id images/s_image.jpg{
-    background-image: url('./images/c_image.jpg'); 
-    background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
+
+
+  }
+#hide{
+    display: none;
+}
+#hide1{
+    display: none;
+}
+#hide2{
+    display: none;
 }
